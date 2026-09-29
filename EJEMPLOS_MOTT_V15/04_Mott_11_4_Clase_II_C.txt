@@ -1,0 +1,6 @@
+MOTT 7a EDICION - CAPITULO 11 - EJEMPLO 11.4 - CLASE II-C
+
+Fluido personalizado: densidad rho = 998 kg/m3; peso específico gamma = 9790 N/m3; viscosidad cinemática nu = 8.50063e-7 m2/s.
+P1 = 0 kPa; P2 = 0 kPa; z1 = 12.192 m; z2 = 0 m; hA = 0 m; hR = 0 m. El punto 1 es un depósito abierto. El punto 2 es una sección de tubería.
+Tramo 1: L = 100.584 m; D = 0.1022604 m; material = acero comercial o soldado; rugosidad epsilon = 4.572e-5 m; K total = 3.88.
+Incluya todas las pérdidas menores en la solución completa. Determine el caudal Q mediante Clase II-C.
