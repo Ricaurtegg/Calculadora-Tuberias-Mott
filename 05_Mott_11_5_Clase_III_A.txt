@@ -1,5 +1,0 @@
-MOTT 7a EDICION - CAPITULO 11 - EJEMPLO 11.5 - CLASE III-A
-
-Agua con viscosidad cinemática nu = 1.124e-6 m2/s. Caudal de diseño Q = 0.0141584233 m3/s. Material: acero comercial o soldado. Longitud L = 30.48 m y rugosidad epsilon = 4.572e-5 m.
-Para representar la pérdida de carga permisible de 1.408176 m, use P1 = 0 kPa, P2 = 0 kPa, z1 = 1.408176 m, z2 = 0 m, hA = 0 m y hR = 0 m.
-El diámetro D es la incógnita. Determine el diámetro mínimo teórico requerido y seleccione después la tubería estándar Schedule 40 inmediatamente superior.
