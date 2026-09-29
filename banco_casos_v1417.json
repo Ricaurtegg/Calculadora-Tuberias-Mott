@@ -1,0 +1,298 @@
+{
+  "version": "V14.17",
+  "cantidad": 50,
+  "casos": [
+    {
+      "id": "M-I_11_1",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.1 — Clase I"
+    },
+    {
+      "id": "M-IIA_11_2",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.2 — Clase II-A"
+    },
+    {
+      "id": "M-IIB_11_3",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.3 — Clase II-B"
+    },
+    {
+      "id": "M-IIC_11_4",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.4 — Clase II-C"
+    },
+    {
+      "id": "M-IIIA_11_5",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.5 — Clase III-A"
+    },
+    {
+      "id": "M-IIIB_11_6",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.6 — Clase III-B"
+    },
+    {
+      "id": "C-I-01",
+      "categoria": "Clasificación",
+      "nombre": "Dado Q=0.010 m3/s, L=50 m y D=80 mm, determine P2.",
+      "esperado": "Clase I"
+    },
+    {
+      "id": "C-I-02",
+      "categoria": "Clasificación",
+      "nombre": "Por una tubería circulan 18 L/s. Determine la carga de la bomba hA.",
+      "esperado": "Clase I"
+    },
+    {
+      "id": "C-IIA-01",
+      "categoria": "Clasificación",
+      "nombre": "Determine el caudal Q entre dos depósitos abiertos unidos por una tubería de 100 m y 100 mm. Desprecie pérdidas menores.",
+      "esperado": "Clase II-A"
+    },
+    {
+      "id": "C-IIA-02",
+      "categoria": "Clasificación",
+      "nombre": "Calcule Q en una tubería recta de 250 ft NPS 4 Schedule 40. Desprecie las pérdidas menores.",
+      "esperado": "Clase II-A"
+    },
+    {
+      "id": "C-IIB-01",
+      "categoria": "Clasificación",
+      "nombre": "Determine el caudal Q en una tubería de 120 m y 100 mm con dos codos y una válvula; considere las pérdidas menores relativamente pequeñas como corrección.",
+      "esperado": "Clase II-B"
+    },
+    {
+      "id": "C-IIB-02",
+      "categoria": "Clasificación",
+      "nombre": "Halle el caudal Q si la línea tiene L=90 m, D=75 mm y K=3.2; trate las pérdidas menores como una pequeña corrección.",
+      "esperado": "Clase II-B"
+    },
+    {
+      "id": "C-IIC-01",
+      "categoria": "Clasificación",
+      "nombre": "Dos depósitos están conectados por dos tramos en serie de 100 mm y 75 mm con una contracción súbita y una válvula. Determine Q.",
+      "esperado": "Clase II-C"
+    },
+    {
+      "id": "C-IIC-02",
+      "categoria": "Clasificación",
+      "nombre": "Determine el caudal entre dos depósitos a través de tres tuberías en serie de distintos diámetros, con codos, válvula y cambio de sección.",
+      "esperado": "Clase II-C"
+    },
+    {
+      "id": "C-IIIA-01",
+      "categoria": "Clasificación",
+      "nombre": "Para Q=0.010 m3/s determine el diámetro mínimo D de una tubería de 50 m si hL permitida es 3 m.",
+      "esperado": "Clase III-A"
+    },
+    {
+      "id": "C-IIIA-02",
+      "categoria": "Clasificación",
+      "nombre": "Determine el diámetro requerido de una tubería para transportar 850 gpm con una pérdida de carga máxima especificada.",
+      "esperado": "Clase III-A"
+    },
+    {
+      "id": "C-IIIB-01",
+      "categoria": "Clasificación",
+      "nombre": "Se seleccionó una tubería comercial de D=80 mm para Q=0.010 m3/s. Verifique la presión P2 disponible.",
+      "esperado": "Clase III-B"
+    },
+    {
+      "id": "C-IIIB-02",
+      "categoria": "Clasificación",
+      "nombre": "Verifique si la tubería comercial NPS 4 Schedule 40 con caudal conocido cumple la presión mínima de 100 psig en la salida.",
+      "esperado": "Clase III-B"
+    },
+    {
+      "id": "C-MOTT112",
+      "categoria": "Clasificación",
+      "nombre": "Aceite lubricante en tubería horizontal DN 150 cédula 40 con caída de presión máxima de 60 kPa por cada 100 m. Determine la rapidez del flujo volumétrico máximo permisible.",
+      "esperado": "Clase II-A"
+    },
+    {
+      "id": "C-MOTT113",
+      "categoria": "Clasificación",
+      "nombre": "Aceite lubricante en línea horizontal DN 150 Schedule 40 de 30 m + 40 m + 30 m, dos codos estándar y válvula mariposa totalmente abierta. Determine la rapidez del flujo volumétrico máxima permisible.",
+      "esperado": "Clase II-B"
+    },
+    {
+      "id": "C-SPRINKLER",
+      "categoria": "Clasificación",
+      "nombre": "Determine el tamaño más pequeño permisible de tubería estándar Calibre 40 para alimentar 0.50 pies^3/s de agua a 60 °F con presión mínima requerida en B.",
+      "esperado": "Clase III-A"
+    },
+    {
+      "id": "P-01",
+      "categoria": "Parser/unidades",
+      "nombre": "Q=850 gpm",
+      "esperado": "850 gpm→m³/s"
+    },
+    {
+      "id": "P-02",
+      "categoria": "Parser/unidades",
+      "nombre": "Q=1.5 ft3/s",
+      "esperado": "1.5 ft³/s→m³/s"
+    },
+    {
+      "id": "P-03",
+      "categoria": "Parser/unidades",
+      "nombre": "P1=35 psig",
+      "esperado": "35 psig→kPa"
+    },
+    {
+      "id": "P-04",
+      "categoria": "Parser/unidades",
+      "nombre": "z1=120 ft",
+      "esperado": "120 ft→36.576 m"
+    },
+    {
+      "id": "P-05",
+      "categoria": "Parser/unidades",
+      "nombre": "Tramo 1: tubería NPS 4 Schedule 40, L=100 m",
+      "esperado": "NPS4 Sch40→ID 102.3 mm"
+    },
+    {
+      "id": "P-06",
+      "categoria": "Parser/unidades",
+      "nombre": "Tramo 1: DN100 cédula 80, L=100 m",
+      "esperado": "DN100 Sch80→ID 97.2 mm"
+    },
+    {
+      "id": "P-07",
+      "categoria": "Parser/unidades",
+      "nombre": "Agua a 68 °F",
+      "esperado": "68°F→20°C"
+    },
+    {
+      "id": "P-08",
+      "categoria": "Parser/unidades",
+      "nombre": "nu = 1.30 cSt y rho = 998 kg/m3",
+      "esperado": "1.30 cSt→1.30e-6 m²/s"
+    },
+    {
+      "id": "P-09",
+      "categoria": "Parser/unidades",
+      "nombre": "gravedad específica de 0.88 y viscosidad dinámica de 9.5 x 10^-3 Pa.s",
+      "esperado": "SG+μ→ρ=880 y ν=μ/ρ"
+    },
+    {
+      "id": "P-10",
+      "categoria": "Parser/unidades",
+      "nombre": "presión en el punto B debe ser de al menos 60 lb/pulg^2 relativas",
+      "esperado": "60 lb/pulg²→413.685 kPa"
+    },
+    {
+      "id": "P-11",
+      "categoria": "Parser/unidades",
+      "nombre": "Q = 0.50 pies^3/s",
+      "esperado": "0.50 pies³/s→m³/s"
+    },
+    {
+      "id": "P-12",
+      "categoria": "Parser/unidades",
+      "nombre": "La tubería tiene 600 pies de longitud y el punto B está 25 pies por encima de A.",
+      "esperado": "L=600 ft y Δz=25 ft"
+    },
+    {
+      "id": "P-13",
+      "categoria": "Parser/unidades",
+      "nombre": "Aceite lubricante con gravedad específica de 0.88 y viscosidad dinámica de 9.5 x 10° Pa.s",
+      "esperado": "OCR conserva ρ=880 y marca μ con exponente ambiguo sin inventarlo"
+    },
+    {
+      "id": "A-01",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "En el tramo 2 hay dos codos de 90 grados de radio largo.",
+      "esperado": "Codo 90° radio largo"
+    },
+    {
+      "id": "A-02",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "El tramo 1 contiene una válvula de compuerta abierta al 50 %.",
+      "esperado": "Válvula de compuerta — 1/2 abierta"
+    },
+    {
+      "id": "A-03",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Hay una válvula de compuerta 75 % abierta en el tramo 1.",
+      "esperado": "Válvula de compuerta — 3/4 abierta"
+    },
+    {
+      "id": "A-04",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Existe una válvula mariposa completamente abierta en el tramo 2.",
+      "esperado": "Válvula mariposa — totalmente abierta"
+    },
+    {
+      "id": "A-05",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Existe una válvula mariposa en el tramo 1.",
+      "esperado": "PENDIENTE_MARIPOSA"
+    },
+    {
+      "id": "A-06",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "En el tramo 2 existe una tee con flujo por el ramal.",
+      "esperado": "Tee estándar — flujo por ramal"
+    },
+    {
+      "id": "T-01",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Tramo 1 D=100 mm. Tramo 2 D=75 mm. Entre ambos hay una reducción súbita.",
+      "esperado": "Contracción súbita"
+    },
+    {
+      "id": "T-02",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Tramo 1 D=75 mm. Tramo 2 D=100 mm. La unión es una expansión cónica gradual de 20 grados.",
+      "esperado": "Ensanchamiento gradual"
+    },
+    {
+      "id": "F-I",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine P2",
+      "esperado": "P2"
+    },
+    {
+      "id": "F-IIA",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine Q",
+      "esperado": "Q>0"
+    },
+    {
+      "id": "F-IIB",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine Q con pérdidas menores",
+      "esperado": "Q>0"
+    },
+    {
+      "id": "F-IIC",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine Q en dos tramos",
+      "esperado": "Q≈0.0246035"
+    },
+    {
+      "id": "F-IIIA",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine D mínimo",
+      "esperado": "D>0"
+    },
+    {
+      "id": "F-IIIB",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Verifique D y P2",
+      "esperado": "auditoría OK"
+    },
+    {
+      "id": "G-01",
+      "categoria": "Guardrail",
+      "nombre": "NPS sin Schedule no inventa diámetro"
+    },
+    {
+      "id": "G-02",
+      "categoria": "Guardrail",
+      "nombre": "Atmósfera + P2 no nula genera conflicto"
+    }
+  ]
+}

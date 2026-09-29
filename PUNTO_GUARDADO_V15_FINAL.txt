@@ -1,0 +1,19 @@
+PUNTO DE GUARDADO — V15.0 FINAL
+
+Fecha de cierre: 2026-09-29
+Base consolidada: V14.17.7.5 + hotfix gráfico z_nodos + correcciones 11.2/11.3 + benchmarks V15.
+
+Validación final:
+- pruebas_v15_final.py: 6/6 ejemplos patrón TXT OK
+- pruebas_mott_cap11.py: 6/6 casos dorados Mott OK
+- pruebas_v14_17.py: banco maestro 50/50 OK
+- pruebas_v14_10.py: OK
+- pruebas_v14_15.py: OK
+- pruebas_v14_16.py: OK
+- pruebas_v14_18.py: OK
+- pruebas_v14_19.py: OK
+- pruebas_v14_20.py: OK
+- compileall: OK
+
+Los seis ejemplos oficiales están en EJEMPLOS_MOTT_V15/.
+Use esos TXT para verificar objetivamente la instalación y el motor antes de usar fotografías/OCR.

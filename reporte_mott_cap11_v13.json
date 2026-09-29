@@ -1,0 +1,97 @@
+[
+  {
+    "caso": "11.1",
+    "clase": "I",
+    "estado": "OK",
+    "obtenido": {
+      "hL_m": 204.87580094300827,
+      "hA_m": 214.87580094300827,
+      "potencia_entrada_kW": 32.82510590721481,
+      "residual_m": 0.0
+    },
+    "referencia_mott": {
+      "hL_m": 207.4,
+      "hA_m": 217.4,
+      "potencia_entrada_kW": 33.2
+    },
+    "error_rel_max_pct": 1.2170680120500161
+  },
+  {
+    "caso": "11.2",
+    "clase": "II-A",
+    "estado": "OK",
+    "obtenido": {
+      "Q_m3s": 0.05699969119070514,
+      "residual_m": 0.0008010817013239802,
+      "iteraciones": 0
+    },
+    "referencia_mott": {
+      "Q_m3s": 0.057
+    },
+    "error_rel_Q_pct": 0.0005417706927451038
+  },
+  {
+    "caso": "11.3",
+    "clase": "II-B",
+    "estado": "OK",
+    "obtenido": {
+      "Q_m3s": 0.05388934565028376,
+      "residual_m": -1.9435644205145763e-09,
+      "iteraciones": 30
+    },
+    "referencia_mott": {
+      "Q_m3s": 0.0538
+    },
+    "error_rel_Q_pct": 0.166069981940078
+  },
+  {
+    "caso": "11.4",
+    "clase": "II-C",
+    "estado": "OK",
+    "obtenido": {
+      "Q_m3s": 0.026986450104936575,
+      "residual_m": -4.688379906525597e-09,
+      "iteraciones": 29
+    },
+    "referencia_mott": {
+      "Q_m3s": 0.02704258849536,
+      "Q_ft3s": 0.955,
+      "f": 0.0175
+    },
+    "error_rel_Q_pct": 0.20759251812397977
+  },
+  {
+    "caso": "11.5",
+    "clase": "III-A",
+    "estado": "OK",
+    "obtenido": {
+      "D_mott_m": 0.09418286898201791,
+      "D_numerico_m": 0.09265741114170672,
+      "nps": "4",
+      "D_comercial_m": 0.1023
+    },
+    "referencia_mott": {
+      "D_min_m": 0.09418320000000001,
+      "D_min_ft": 0.309,
+      "nps": "4",
+      "D_comercial_m": 0.10226040000000002
+    },
+    "error_rel_D_pct": 0.00035146181282248663
+  },
+  {
+    "caso": "11.6",
+    "clase": "III-B",
+    "estado": "OK",
+    "obtenido": {
+      "P2_psi": 100.48631547815296,
+      "hL_ft": 3.493118127339155,
+      "V_fts": 5.655813418747569,
+      "f": 0.01902023466953283
+    },
+    "referencia_mott": {
+      "P2_psi": 100.48,
+      "hL_ft": 3.51,
+      "V_fts": 5.66
+    }
+  }
+]

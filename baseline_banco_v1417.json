@@ -1,0 +1,542 @@
+{
+  "version": "V14.17",
+  "total": 50,
+  "ok": 50,
+  "fallos": 0,
+  "estado": "OK",
+  "por_categoria": {
+    "Mott dorado": {
+      "total": 6,
+      "ok": 6,
+      "fallos": 0
+    },
+    "Clasificación": {
+      "total": 15,
+      "ok": 15,
+      "fallos": 0
+    },
+    "Parser/unidades": {
+      "total": 13,
+      "ok": 13,
+      "fallos": 0
+    },
+    "Accesorios/transiciones": {
+      "total": 8,
+      "ok": 8,
+      "fallos": 0
+    },
+    "Flujo end-to-end": {
+      "total": 6,
+      "ok": 6,
+      "fallos": 0
+    },
+    "Guardrail": {
+      "total": 2,
+      "ok": 2,
+      "fallos": 0
+    }
+  },
+  "duracion_ms": 74.68211800028257,
+  "resultados": [
+    {
+      "id": "M-I_11_1",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.1 — Clase I",
+      "estado": "OK",
+      "esperado": "Dentro de tolerancia Mott 7e",
+      "obtenido": "hA=214.88 m; hL=204.88 m",
+      "detalle": "",
+      "duracion_ms": 0.07097500019881409
+    },
+    {
+      "id": "M-IIA_11_2",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.2 — Clase II-A",
+      "estado": "OK",
+      "esperado": "Dentro de tolerancia Mott 7e",
+      "obtenido": "Q=0.056999691",
+      "detalle": "",
+      "duracion_ms": 0.5970370000341063
+    },
+    {
+      "id": "M-IIB_11_3",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.3 — Clase II-B",
+      "estado": "OK",
+      "esperado": "Dentro de tolerancia Mott 7e",
+      "obtenido": "Q=0.053889346",
+      "detalle": "",
+      "duracion_ms": 0.43408500005170936
+    },
+    {
+      "id": "M-IIC_11_4",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.4 — Clase II-C",
+      "estado": "OK",
+      "esperado": "Dentro de tolerancia Mott 7e",
+      "obtenido": "Q=0.02698645",
+      "detalle": "",
+      "duracion_ms": 0.7280419999915466
+    },
+    {
+      "id": "M-IIIA_11_5",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.5 — Clase III-A",
+      "estado": "OK",
+      "esperado": "Dentro de tolerancia Mott 7e",
+      "obtenido": "Dmin=0.09418287; NPS 4",
+      "detalle": "",
+      "duracion_ms": 0.21716300011576095
+    },
+    {
+      "id": "M-IIIB_11_6",
+      "categoria": "Mott dorado",
+      "nombre": "Mott 7e — Ejemplo 11.6 — Clase III-B",
+      "estado": "OK",
+      "esperado": "Dentro de tolerancia Mott 7e",
+      "obtenido": "P2=100.49 psig",
+      "detalle": "",
+      "duracion_ms": 0.011026000038327766
+    },
+    {
+      "id": "C-I-01",
+      "categoria": "Clasificación",
+      "nombre": "Dado Q=0.010 m3/s, L=50 m y D=80 mm, determine P2.",
+      "estado": "OK",
+      "esperado": "Clase I",
+      "obtenido": "Clase I (91 %)",
+      "detalle": "",
+      "duracion_ms": 22.56009699999595
+    },
+    {
+      "id": "C-I-02",
+      "categoria": "Clasificación",
+      "nombre": "Por una tubería circulan 18 L/s. Determine la carga de la bomba hA.",
+      "estado": "OK",
+      "esperado": "Clase I",
+      "obtenido": "Clase I (91 %)",
+      "detalle": "",
+      "duracion_ms": 1.701158000059877
+    },
+    {
+      "id": "C-IIA-01",
+      "categoria": "Clasificación",
+      "nombre": "Determine el caudal Q entre dos depósitos abiertos unidos por una tubería de 100 m y 100 mm. Desprecie pérdidas menores.",
+      "estado": "OK",
+      "esperado": "Clase II-A",
+      "obtenido": "Clase II-A (98 %)",
+      "detalle": "",
+      "duracion_ms": 1.4029039998604276
+    },
+    {
+      "id": "C-IIA-02",
+      "categoria": "Clasificación",
+      "nombre": "Calcule Q en una tubería recta de 250 ft NPS 4 Schedule 40. Desprecie las pérdidas menores.",
+      "estado": "OK",
+      "esperado": "Clase II-A",
+      "obtenido": "Clase II-A (98 %)",
+      "detalle": "",
+      "duracion_ms": 1.5347999999448803
+    },
+    {
+      "id": "C-IIB-01",
+      "categoria": "Clasificación",
+      "nombre": "Determine el caudal Q en una tubería de 120 m y 100 mm con dos codos y una válvula; considere las pérdidas menores relativamente pequeñas como corrección.",
+      "estado": "OK",
+      "esperado": "Clase II-B",
+      "obtenido": "Clase II-B (94 %)",
+      "detalle": "",
+      "duracion_ms": 4.727463000108401
+    },
+    {
+      "id": "C-IIB-02",
+      "categoria": "Clasificación",
+      "nombre": "Halle el caudal Q si la línea tiene L=90 m, D=75 mm y K=3.2; trate las pérdidas menores como una pequeña corrección.",
+      "estado": "OK",
+      "esperado": "Clase II-B",
+      "obtenido": "Clase II-B (94 %)",
+      "detalle": "",
+      "duracion_ms": 1.2282939999295195
+    },
+    {
+      "id": "C-IIC-01",
+      "categoria": "Clasificación",
+      "nombre": "Dos depósitos están conectados por dos tramos en serie de 100 mm y 75 mm con una contracción súbita y una válvula. Determine Q.",
+      "estado": "OK",
+      "esperado": "Clase II-C",
+      "obtenido": "Clase II-C (82 %)",
+      "detalle": "",
+      "duracion_ms": 1.4628930000526452
+    },
+    {
+      "id": "C-IIC-02",
+      "categoria": "Clasificación",
+      "nombre": "Determine el caudal entre dos depósitos a través de tres tuberías en serie de distintos diámetros, con codos, válvula y cambio de sección.",
+      "estado": "OK",
+      "esperado": "Clase II-C",
+      "obtenido": "Clase II-C (82 %)",
+      "detalle": "",
+      "duracion_ms": 1.1308899997857225
+    },
+    {
+      "id": "C-IIIA-01",
+      "categoria": "Clasificación",
+      "nombre": "Para Q=0.010 m3/s determine el diámetro mínimo D de una tubería de 50 m si hL permitida es 3 m.",
+      "estado": "OK",
+      "esperado": "Clase III-A",
+      "obtenido": "Clase III-A (95 %)",
+      "detalle": "",
+      "duracion_ms": 1.2622659999124153
+    },
+    {
+      "id": "C-IIIA-02",
+      "categoria": "Clasificación",
+      "nombre": "Determine el diámetro requerido de una tubería para transportar 850 gpm con una pérdida de carga máxima especificada.",
+      "estado": "OK",
+      "esperado": "Clase III-A",
+      "obtenido": "Clase III-A (95 %)",
+      "detalle": "",
+      "duracion_ms": 1.1785909998707211
+    },
+    {
+      "id": "C-IIIB-01",
+      "categoria": "Clasificación",
+      "nombre": "Se seleccionó una tubería comercial de D=80 mm para Q=0.010 m3/s. Verifique la presión P2 disponible.",
+      "estado": "OK",
+      "esperado": "Clase III-B",
+      "obtenido": "Clase III-B (96 %)",
+      "detalle": "",
+      "duracion_ms": 1.1420969999562658
+    },
+    {
+      "id": "C-IIIB-02",
+      "categoria": "Clasificación",
+      "nombre": "Verifique si la tubería comercial NPS 4 Schedule 40 con caudal conocido cumple la presión mínima de 100 psig en la salida.",
+      "estado": "OK",
+      "esperado": "Clase III-B",
+      "obtenido": "Clase III-B (96 %)",
+      "detalle": "",
+      "duracion_ms": 1.1919410001155484
+    },
+    {
+      "id": "C-MOTT112",
+      "categoria": "Clasificación",
+      "nombre": "Aceite lubricante en tubería horizontal DN 150 cédula 40 con caída de presión máxima de 60 kPa por cada 100 m. Determine la rapidez del flujo volumétrico máximo permisible.",
+      "estado": "OK",
+      "esperado": "Clase II-A",
+      "obtenido": "Clase II-A (90 %)",
+      "detalle": "",
+      "duracion_ms": 1.5729070000816137
+    },
+    {
+      "id": "C-MOTT113",
+      "categoria": "Clasificación",
+      "nombre": "Aceite lubricante en línea horizontal DN 150 Schedule 40 de 30 m + 40 m + 30 m, dos codos estándar y válvula mariposa totalmente abierta. Determine la rapidez del flujo volumétrico máxima permisible.",
+      "estado": "OK",
+      "esperado": "Clase II-B",
+      "obtenido": "Clase II-B (88 %)",
+      "detalle": "",
+      "duracion_ms": 2.297933999898305
+    },
+    {
+      "id": "C-SPRINKLER",
+      "categoria": "Clasificación",
+      "nombre": "Determine el tamaño más pequeño permisible de tubería estándar Calibre 40 para alimentar 0.50 pies^3/s de agua a 60 °F con presión mínima requerida en B.",
+      "estado": "OK",
+      "esperado": "Clase III-A",
+      "obtenido": "Clase III-A (93 %)",
+      "detalle": "",
+      "duracion_ms": 1.9392009999137372
+    },
+    {
+      "id": "P-01",
+      "categoria": "Parser/unidades",
+      "nombre": "Q=850 gpm",
+      "estado": "OK",
+      "esperado": "850 gpm→m³/s",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": 0.053626666940000005, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"r",
+      "detalle": "",
+      "duracion_ms": 0.10886099994422693
+    },
+    {
+      "id": "P-02",
+      "categoria": "Parser/unidades",
+      "nombre": "Q=1.5 ft3/s",
+      "estado": "OK",
+      "esperado": "1.5 ft³/s→m³/s",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": 0.042475269888, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_",
+      "detalle": "",
+      "duracion_ms": 0.07909699979791185
+    },
+    {
+      "id": "P-03",
+      "categoria": "Parser/unidades",
+      "nombre": "P1=35 psig",
+      "estado": "OK",
+      "esperado": "35 psig→kPa",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": 241.31650525499998, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho",
+      "detalle": "",
+      "duracion_ms": 0.0750209999296203
+    },
+    {
+      "id": "P-04",
+      "categoria": "Parser/unidades",
+      "nombre": "z1=120 ft",
+      "estado": "OK",
+      "esperado": "120 ft→36.576 m",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": 36.576, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_m3\": nul",
+      "detalle": "",
+      "duracion_ms": 0.06940299999769195
+    },
+    {
+      "id": "P-05",
+      "categoria": "Parser/unidades",
+      "nombre": "Tramo 1: tubería NPS 4 Schedule 40, L=100 m",
+      "estado": "OK",
+      "esperado": "NPS4 Sch40→ID 102.3 mm",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_m3\": null,",
+      "detalle": "",
+      "duracion_ms": 0.17574100002093473
+    },
+    {
+      "id": "P-06",
+      "categoria": "Parser/unidades",
+      "nombre": "Tramo 1: DN100 cédula 80, L=100 m",
+      "estado": "OK",
+      "esperado": "DN100 Sch80→ID 97.2 mm",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_m3\": null,",
+      "detalle": "",
+      "duracion_ms": 0.13894700009586813
+    },
+    {
+      "id": "P-07",
+      "categoria": "Parser/unidades",
+      "nombre": "Agua a 68 °F",
+      "estado": "OK",
+      "esperado": "68°F→20°C",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": 20.0}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_m3\": null,",
+      "detalle": "",
+      "duracion_ms": 0.07655399986106204
+    },
+    {
+      "id": "P-08",
+      "categoria": "Parser/unidades",
+      "nombre": "nu = 1.30 cSt y rho = 998 kg/m3",
+      "estado": "OK",
+      "esperado": "1.30 cSt→1.30e-6 m²/s",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_m3\": 998.0",
+      "detalle": "",
+      "duracion_ms": 0.16274200015686802
+    },
+    {
+      "id": "P-09",
+      "categoria": "Parser/unidades",
+      "nombre": "gravedad específica de 0.88 y viscosidad dinámica de 9.5 x 10^-3 Pa.s",
+      "estado": "OK",
+      "esperado": "SG+μ→ρ=880 y ν=μ/ρ",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": 0.88, \"rho_kg_m3\": 880.0",
+      "detalle": "",
+      "duracion_ms": 0.22579500000574626
+    },
+    {
+      "id": "P-10",
+      "categoria": "Parser/unidades",
+      "nombre": "presión en el punto B debe ser de al menos 60 lb/pulg^2 relativas",
+      "estado": "OK",
+      "esperado": "60 lb/pulg²→413.685 kPa",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": 413.68543758, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_m3",
+      "detalle": "",
+      "duracion_ms": 0.24434300007669663
+    },
+    {
+      "id": "P-11",
+      "categoria": "Parser/unidades",
+      "nombre": "Q = 0.50 pies^3/s",
+      "estado": "OK",
+      "esperado": "0.50 pies³/s→m³/s",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": 0.014158423296, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_",
+      "detalle": "",
+      "duracion_ms": 0.08866100006343913
+    },
+    {
+      "id": "P-12",
+      "categoria": "Parser/unidades",
+      "nombre": "La tubería tiene 600 pies de longitud y el punto B está 25 pies por encima de A.",
+      "estado": "OK",
+      "esperado": "L=600 ft y Δz=25 ft",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": 0.0, \"z2_m\": 7.62, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": null, \"rho_kg_m3\": null, ",
+      "detalle": "",
+      "duracion_ms": 0.22004700008437794
+    },
+    {
+      "id": "P-13",
+      "categoria": "Parser/unidades",
+      "nombre": "Aceite lubricante con gravedad específica de 0.88 y viscosidad dinámica de 9.5 x 10° Pa.s",
+      "estado": "OK",
+      "esperado": "OCR conserva ρ=880 y marca μ con exponente ambiguo sin inventarlo",
+      "obtenido": "{\"version\": \"V14.12\", \"revision\": \"V14.12.4\", \"escalares\": {\"Q_m3s\": null, \"deltaP_kpa\": null, \"P1_kpa\": null, \"P2_kpa\": null, \"z1_m\": null, \"z2_m\": null, \"hA_m\": null, \"hR_m\": null, \"temperatura_c\": null}, \"propiedades_fluido\": {\"sg\": 0.88, \"rho_kg_m3\": 880.0",
+      "detalle": "",
+      "duracion_ms": 0.3334860000450135
+    },
+    {
+      "id": "A-01",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "En el tramo 2 hay dos codos de 90 grados de radio largo.",
+      "estado": "OK",
+      "esperado": "Codo 90° radio largo",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [{\"nombre\": \"Codo 90° radio largo\", \"cantidad\": 2, \"tramo\": 2, \"original\": \"codos de 90 grados de radio largo\", \"confianza\": 97.0, \"estado\": \"Alta\", \"modelo_k\": \"Le/D × fT\", \"metodo_k\": \"K = fT(Le/D)\", \"fuente_k\": \"Mott 7e — Tabla 10.4\", \"le_d\": 20.0}], \"transicio",
+      "detalle": "",
+      "duracion_ms": 0.4046920000746468
+    },
+    {
+      "id": "A-02",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "El tramo 1 contiene una válvula de compuerta abierta al 50 %.",
+      "estado": "OK",
+      "esperado": "Válvula de compuerta — 1/2 abierta",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [{\"nombre\": \"Válvula de compuerta — 1/2 abierta\", \"cantidad\": 1, \"tramo\": 1, \"original\": \"valvula de compuerta abierta al 50 %\", \"confianza\": 97.0, \"estado\": \"Alta\", \"modelo_k\": \"Le/D × fT\", \"metodo_k\": \"K = fT(Le/D)\", \"fuente_k\": \"Mott 7e — Tabla 10.4\", \"le_d\": 1",
+      "detalle": "",
+      "duracion_ms": 0.06989400003476476
+    },
+    {
+      "id": "A-03",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Hay una válvula de compuerta 75 % abierta en el tramo 1.",
+      "estado": "OK",
+      "esperado": "Válvula de compuerta — 3/4 abierta",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [{\"nombre\": \"Válvula de compuerta — 3/4 abierta\", \"cantidad\": 1, \"tramo\": 1, \"original\": \"valvula de compuerta 75 % abierta en el \", \"confianza\": 97.0, \"estado\": \"Alta\", \"modelo_k\": \"Le/D × fT\", \"metodo_k\": \"K = fT(Le/D)\", \"fuente_k\": \"Mott 7e — Tabla 10.4\", \"le_d",
+      "detalle": "",
+      "duracion_ms": 0.0541699998848344
+    },
+    {
+      "id": "A-04",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Existe una válvula mariposa completamente abierta en el tramo 2.",
+      "estado": "OK",
+      "esperado": "Válvula mariposa — totalmente abierta",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [{\"nombre\": \"Válvula mariposa — totalmente abierta\", \"cantidad\": 1, \"tramo\": null, \"original\": \"valvula mariposa completamente abierta\", \"confianza\": 92.0, \"estado\": \"Confirmar tramo\", \"modelo_k\": \"Le/D × fT por rango de DN\", \"metodo_k\": \"K = fT(Le/D), mariposa se",
+      "detalle": "",
+      "duracion_ms": 0.07129499999791733
+    },
+    {
+      "id": "A-05",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Existe una válvula mariposa en el tramo 1.",
+      "estado": "OK",
+      "esperado": "PENDIENTE_MARIPOSA",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [{\"nombre\": \"Válvula mariposa (apertura por definir)\", \"cantidad\": 1, \"tramo\": 1, \"original\": \"valvula mariposa\", \"confianza\": 70.0, \"estado\": \"Confirmar\", \"modelo_k\": \"pendiente\", \"metodo_k\": \"No se asigna K sin conocer apertura/condición\", \"requiere_confirmacion",
+      "detalle": "",
+      "duracion_ms": 0.12760900017383392
+    },
+    {
+      "id": "A-06",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "En el tramo 2 existe una tee con flujo por el ramal.",
+      "estado": "OK",
+      "esperado": "Tee estándar — flujo por ramal",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [{\"nombre\": \"Tee estándar — flujo por ramal\", \"cantidad\": 1, \"tramo\": null, \"original\": \"tee con flujo por el ramal\", \"confianza\": 92.0, \"estado\": \"Confirmar tramo\", \"modelo_k\": \"Le/D × fT\", \"metodo_k\": \"K = fT(Le/D)\", \"fuente_k\": \"Mott 7e — Tabla 10.4\", \"le_d\": 6",
+      "detalle": "",
+      "duracion_ms": 0.22063799997340539
+    },
+    {
+      "id": "T-01",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Tramo 1 D=100 mm. Tramo 2 D=75 mm. Entre ambos hay una reducción súbita.",
+      "estado": "OK",
+      "esperado": "Contracción súbita",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [], \"transiciones\": [{\"entre\": 1, \"tipo\": \"Contracción súbita\", \"angulo_grados\": null, \"D1_m\": 0.1, \"D2_m\": 0.075, \"direccion\": \"contracción\", \"estado\": \"Alta\", \"confianza\": 96.0, \"requiere_confirmacion\": false, \"detalle_v1413\": \"explícita súbita/brusca\", \"fuente_",
+      "detalle": "",
+      "duracion_ms": 0.06740000003446767
+    },
+    {
+      "id": "T-02",
+      "categoria": "Accesorios/transiciones",
+      "nombre": "Tramo 1 D=75 mm. Tramo 2 D=100 mm. La unión es una expansión cónica gradual de 20 grados.",
+      "estado": "OK",
+      "esperado": "Ensanchamiento gradual",
+      "obtenido": "{\"version\": \"V14.13\", \"accesorios\": [], \"transiciones\": [{\"entre\": 1, \"tipo\": \"Ensanchamiento gradual\", \"angulo_grados\": null, \"D1_m\": 0.075, \"D2_m\": 0.1, \"direccion\": \"expansión\", \"estado\": \"Confirmar ángulo\", \"confianza\": 85.0, \"requiere_confirmacion\": true, \"detalle_v1413\": \"explícita gradual/cón",
+      "detalle": "",
+      "duracion_ms": 0.36207799985277234
+    },
+    {
+      "id": "F-I",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine P2",
+      "estado": "OK",
+      "esperado": "P2",
+      "obtenido": "auditoría=OK; solver={\"incognita\": \"P2\", \"incognita_etiqueta\": \"Presión P2\", \"valor\": 73668.01576455848, \"unidad\": \"Pa\", \"residual\": 1.3322676295501878e-15, \"Q_m3s\": 0.01, \"sistema\": {\"resultados\": [{\"",
+      "detalle": "",
+      "duracion_ms": 3.7921340001503268
+    },
+    {
+      "id": "F-IIA",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine Q",
+      "estado": "OK",
+      "esperado": "Q>0",
+      "obtenido": "auditoría=OK; solver={\"metodo\": \"II-A\", \"Q\": 0.0324469415838975, \"Q_final\": 0.0324469415838975, \"Q_IIA\": 0.0324469415838975, \"sistema\": {\"resultados\": [{\"Tramo\": 1, \"L (m)\": 100.0, \"D (m)\": 0.1, \"epsil",
+      "detalle": "",
+      "duracion_ms": 2.837725000063074
+    },
+    {
+      "id": "F-IIB",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine Q con pérdidas menores",
+      "estado": "OK",
+      "esperado": "Q>0",
+      "obtenido": "auditoría=OK; solver={\"Q\": 0.03145602412927654, \"Q_final\": 0.03145602412927654, \"residual\": -3.4086067302041556e-12, \"sistema\": {\"resultados\": [{\"Tramo\": 1, \"L (m)\": 100.0, \"D (m)\": 0.1, \"epsilon (m)\":",
+      "detalle": "",
+      "duracion_ms": 3.100336999978026
+    },
+    {
+      "id": "F-IIC",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine Q en dos tramos",
+      "estado": "OK",
+      "esperado": "Q≈0.0246035",
+      "obtenido": "auditoría=OK; solver={\"Q\": 0.02460353352598888, \"Q_final\": 0.02460353352598888, \"residual\": -2.8551383479680226e-11, \"sistema\": {\"resultados\": [{\"Tramo\": 1, \"L (m)\": 68.5, \"D (m)\": 0.1, \"epsilon (m)\": ",
+      "detalle": "",
+      "duracion_ms": 9.324572000195985
+    },
+    {
+      "id": "F-IIIA",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Determine D mínimo",
+      "estado": "OK",
+      "esperado": "D>0",
+      "obtenido": "auditoría=REVISAR; solver={\"D\": 0.05402373622445151, \"A\": 0.0022922348647725858, \"V\": 4.362554707495956, \"Re\": 231060.2988063733, \"regimen\": \"Turbulento\", \"eps_rel\": 0.0008514775766134459, \"f\": 0.0202502733",
+      "detalle": "",
+      "duracion_ms": 2.131826999857367
+    },
+    {
+      "id": "F-IIIB",
+      "categoria": "Flujo end-to-end",
+      "nombre": "Verifique D y P2",
+      "estado": "OK",
+      "esperado": "auditoría OK",
+      "obtenido": "auditoría=OK; solver={\"D\": 0.08, \"A\": 0.005026548245743669, \"V\": 1.989436788648692, \"Re\": 156034.25793323072, \"regimen\": \"Turbulento\", \"eps_rel\": 0.000575, \"f\": 0.019634336290185236, \"hf\": 2.4754692091",
+      "detalle": "",
+      "duracion_ms": 1.2446589998944546
+    },
+    {
+      "id": "G-01",
+      "categoria": "Guardrail",
+      "nombre": "NPS sin Schedule no inventa diámetro",
+      "estado": "OK",
+      "esperado": "D_m=None",
+      "obtenido": "D_m=None",
+      "detalle": "",
+      "duracion_ms": 0.20228000016686565
+    },
+    {
+      "id": "G-02",
+      "categoria": "Guardrail",
+      "nombre": "Atmósfera + P2 no nula genera conflicto",
+      "estado": "OK",
+      "esperado": "Conflicto bloqueante",
+      "obtenido": "{\"clase\": \"Clase II-C\", \"confianza\": 90, \"prefill\": {\"fluido_app\": \"Agua a 20 °C\", \"P1_kpa\": 0.0, \"P2_kpa\": 50.0, \"z1_m\": 10.0, \"z2_m\": 0.0, \"hA_m\": 0.0, \"hR_m\": 0.0, \"tramos\": [{\"numero\": 1, \"L_m\": 50.0, \"D_m\": 0.08, \"material\": \"Acero comercial o soldado\", \"",
+      "detalle": "",
+      "duracion_ms": 0.28034599995407916
+    }
+  ]
+}

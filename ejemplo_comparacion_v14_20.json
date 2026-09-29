@@ -1,0 +1,364 @@
+{
+  "version": "V14.20",
+  "firma_base": "40f62b06ee36be0fc93d6a01bb3d682f88b8f6862fade07083893684bca4b16a",
+  "clase": "Clase II-C",
+  "filas": [
+    {
+      "nombre": "Base",
+      "es_base": true,
+      "clase": "Clase II-C",
+      "estado_matematico": "OK",
+      "estado_fisico": "OK",
+      "estado_integral": "OK",
+      "principal": "Q",
+      "principal_valor": 0.02460353352598888,
+      "principal_unidad": "m³/s",
+      "Q_m3s": 0.02460353352598888,
+      "hL_total_m": 36.58904598190055,
+      "V_max_ms": 5.569100768978915,
+      "Re_min": 307119.5277010431,
+      "Re_max": 409492.7036013908,
+      "f_min": 0.01369842394629987,
+      "f_max": 0.017949079786205132,
+      "potencia_bomba_hidraulica_kW": null,
+      "potencia_turbina_hidraulica_kW": null,
+      "margen_presion_kPa": null,
+      "cambios": [],
+      "delta_principal_pct": 0.0,
+      "delta_Q_pct": 0.0,
+      "delta_hL_pct": 0.0,
+      "delta_Vmax_pct": 0.0
+    },
+    {
+      "nombre": "D1 = 110 mm",
+      "es_base": false,
+      "clase": "Clase II-C",
+      "estado_matematico": "OK",
+      "estado_fisico": "OK",
+      "estado_integral": "OK",
+      "principal": "Q",
+      "principal_valor": 0.02556687210059996,
+      "principal_unidad": "m³/s",
+      "Q_m3s": 0.02556687210059996,
+      "hL_total_m": 36.58904598185242,
+      "V_max_ms": 5.787156016652449,
+      "Re_min": 290131.484792068,
+      "Re_max": 425526.17769503297,
+      "f_min": 0.013603621251122664,
+      "f_max": 0.017779522628143717,
+      "potencia_bomba_hidraulica_kW": null,
+      "potencia_turbina_hidraulica_kW": null,
+      "margen_presion_kPa": null,
+      "cambios": [
+        {
+          "campo": "D_m",
+          "valor": 0.11,
+          "tramo": 1,
+          "anterior": 0.1
+        }
+      ],
+      "firma_escenario": "7d2319d32878be247872f3bb81de13b140617033bb100d5a6dee0c309e31d9eb",
+      "delta_principal_pct": 3.9154480538069762,
+      "delta_Q_pct": 3.9154480538069762,
+      "delta_hL_pct": -1.3152859879658391e-10,
+      "delta_Vmax_pct": 3.915448053806968
+    },
+    {
+      "nombre": "Tramo 1 plástico",
+      "es_base": false,
+      "clase": "Clase II-C",
+      "estado_matematico": "OK",
+      "estado_fisico": "OK",
+      "estado_integral": "OK",
+      "principal": "Q",
+      "principal_valor": 0.025165915687968297,
+      "principal_unidad": "m³/s",
+      "Q_m3s": 0.025165915687968297,
+      "hL_total_m": 36.589045981814834,
+      "V_max_ms": 5.696398050380843,
+      "Re_min": 314139.5983665906,
+      "Re_max": 418852.7978221208,
+      "f_min": 0.01364251477085782,
+      "f_max": 0.014370546837386753,
+      "potencia_bomba_hidraulica_kW": null,
+      "potencia_turbina_hidraulica_kW": null,
+      "margen_presion_kPa": null,
+      "cambios": [
+        {
+          "campo": "material",
+          "valor": "Plástico",
+          "tramo": 1,
+          "anterior": "Acero comercial o soldado"
+        }
+      ],
+      "firma_escenario": "460106eed1c66bc59d42dcc7ae553daa73b752cb91e13e4e0335b171cca7b9dd",
+      "delta_principal_pct": 2.2857780220282913,
+      "delta_Q_pct": 2.2857780220282913,
+      "delta_hL_pct": -2.342580078670002e-10,
+      "delta_Vmax_pct": 2.28577802202828
+    },
+    {
+      "nombre": "Válvula de globo",
+      "es_base": false,
+      "clase": "Clase II-C",
+      "estado_matematico": "OK",
+      "estado_fisico": "OK",
+      "estado_integral": "OK",
+      "principal": "Q",
+      "principal_valor": 0.02336834653551282,
+      "principal_unidad": "m³/s",
+      "Q_m3s": 0.02336834653551282,
+      "hL_total_m": 36.589045981854056,
+      "V_max_ms": 5.289511627393753,
+      "Re_min": 291701.0088636261,
+      "Re_max": 388934.67848483473,
+      "f_min": 0.01382717555949925,
+      "f_max": 0.018018588661751225,
+      "potencia_bomba_hidraulica_kW": null,
+      "potencia_turbina_hidraulica_kW": null,
+      "margen_presion_kPa": null,
+      "cambios": [
+        {
+          "campo": "accesorio_reemplazar",
+          "valor": "Válvula de globo — totalmente abierta",
+          "tramo": 2,
+          "indice_accesorio": 1,
+          "anterior": {
+            "nombre": "Válvula de compuerta — totalmente abierta",
+            "cantidad": 1
+          },
+          "cantidad": 1
+        }
+      ],
+      "firma_escenario": "ecc99677366fe829990843308b23709bd010c8e5b213adaf090b3709e1776767",
+      "delta_principal_pct": -5.020364205699661,
+      "delta_Q_pct": -5.020364205699661,
+      "delta_hL_pct": -1.2706210275004412e-10,
+      "delta_Vmax_pct": -5.020364205699659
+    },
+    {
+      "nombre": "Bomba +5 m",
+      "es_base": false,
+      "clase": "Clase II-C",
+      "estado_matematico": "OK",
+      "estado_fisico": "OK",
+      "estado_integral": "OK",
+      "principal": "Q",
+      "principal_valor": 0.02636601548353119,
+      "principal_unidad": "m³/s",
+      "Q_m3s": 0.02636601548353119,
+      "hL_total_m": 41.58904598186979,
+      "V_max_ms": 5.968045075685601,
+      "Re_min": 329120.1328503089,
+      "Re_max": 438826.84380041185,
+      "f_min": 0.013528381663070408,
+      "f_max": 0.01785974723007544,
+      "potencia_bomba_hidraulica_kW": 1.2906665533482706,
+      "potencia_turbina_hidraulica_kW": null,
+      "margen_presion_kPa": null,
+      "cambios": [
+        {
+          "campo": "hA_m",
+          "valor": 5.0,
+          "anterior": 0.0,
+          "unidad": "m"
+        }
+      ],
+      "firma_escenario": "7f16a0a2dbdd5c3c73fe71bf6cce31ddd4851c29a0bb3713779bb297e9e77b9d",
+      "delta_principal_pct": 7.163531838549074,
+      "delta_Q_pct": 7.163531838549074,
+      "delta_hL_pct": 13.665292072503293,
+      "delta_Vmax_pct": 7.163531838549077
+    }
+  ],
+  "escenarios": [
+    {
+      "version": "V14.20",
+      "nombre": "D1 = 110 mm",
+      "firma_escenario": "7d2319d32878be247872f3bb81de13b140617033bb100d5a6dee0c309e31d9eb",
+      "firma_base": "40f62b06ee36be0fc93d6a01bb3d682f88b8f6862fade07083893684bca4b16a",
+      "cambios": [
+        {
+          "campo": "D_m",
+          "valor": 0.11,
+          "tramo": 1,
+          "anterior": 0.1
+        }
+      ],
+      "resumen": {
+        "nombre": "D1 = 110 mm",
+        "es_base": false,
+        "clase": "Clase II-C",
+        "estado_matematico": "OK",
+        "estado_fisico": "OK",
+        "estado_integral": "OK",
+        "principal": "Q",
+        "principal_valor": 0.02556687210059996,
+        "principal_unidad": "m³/s",
+        "Q_m3s": 0.02556687210059996,
+        "hL_total_m": 36.58904598185242,
+        "V_max_ms": 5.787156016652449,
+        "Re_min": 290131.484792068,
+        "Re_max": 425526.17769503297,
+        "f_min": 0.013603621251122664,
+        "f_max": 0.017779522628143717,
+        "potencia_bomba_hidraulica_kW": null,
+        "potencia_turbina_hidraulica_kW": null,
+        "margen_presion_kPa": null,
+        "cambios": [
+          {
+            "campo": "D_m",
+            "valor": 0.11,
+            "tramo": 1,
+            "anterior": 0.1
+          }
+        ],
+        "firma_escenario": "7d2319d32878be247872f3bb81de13b140617033bb100d5a6dee0c309e31d9eb"
+      }
+    },
+    {
+      "version": "V14.20",
+      "nombre": "Tramo 1 plástico",
+      "firma_escenario": "460106eed1c66bc59d42dcc7ae553daa73b752cb91e13e4e0335b171cca7b9dd",
+      "firma_base": "40f62b06ee36be0fc93d6a01bb3d682f88b8f6862fade07083893684bca4b16a",
+      "cambios": [
+        {
+          "campo": "material",
+          "valor": "Plástico",
+          "tramo": 1,
+          "anterior": "Acero comercial o soldado"
+        }
+      ],
+      "resumen": {
+        "nombre": "Tramo 1 plástico",
+        "es_base": false,
+        "clase": "Clase II-C",
+        "estado_matematico": "OK",
+        "estado_fisico": "OK",
+        "estado_integral": "OK",
+        "principal": "Q",
+        "principal_valor": 0.025165915687968297,
+        "principal_unidad": "m³/s",
+        "Q_m3s": 0.025165915687968297,
+        "hL_total_m": 36.589045981814834,
+        "V_max_ms": 5.696398050380843,
+        "Re_min": 314139.5983665906,
+        "Re_max": 418852.7978221208,
+        "f_min": 0.01364251477085782,
+        "f_max": 0.014370546837386753,
+        "potencia_bomba_hidraulica_kW": null,
+        "potencia_turbina_hidraulica_kW": null,
+        "margen_presion_kPa": null,
+        "cambios": [
+          {
+            "campo": "material",
+            "valor": "Plástico",
+            "tramo": 1,
+            "anterior": "Acero comercial o soldado"
+          }
+        ],
+        "firma_escenario": "460106eed1c66bc59d42dcc7ae553daa73b752cb91e13e4e0335b171cca7b9dd"
+      }
+    },
+    {
+      "version": "V14.20",
+      "nombre": "Válvula de globo",
+      "firma_escenario": "ecc99677366fe829990843308b23709bd010c8e5b213adaf090b3709e1776767",
+      "firma_base": "40f62b06ee36be0fc93d6a01bb3d682f88b8f6862fade07083893684bca4b16a",
+      "cambios": [
+        {
+          "campo": "accesorio_reemplazar",
+          "valor": "Válvula de globo — totalmente abierta",
+          "tramo": 2,
+          "indice_accesorio": 1,
+          "anterior": {
+            "nombre": "Válvula de compuerta — totalmente abierta",
+            "cantidad": 1
+          },
+          "cantidad": 1
+        }
+      ],
+      "resumen": {
+        "nombre": "Válvula de globo",
+        "es_base": false,
+        "clase": "Clase II-C",
+        "estado_matematico": "OK",
+        "estado_fisico": "OK",
+        "estado_integral": "OK",
+        "principal": "Q",
+        "principal_valor": 0.02336834653551282,
+        "principal_unidad": "m³/s",
+        "Q_m3s": 0.02336834653551282,
+        "hL_total_m": 36.589045981854056,
+        "V_max_ms": 5.289511627393753,
+        "Re_min": 291701.0088636261,
+        "Re_max": 388934.67848483473,
+        "f_min": 0.01382717555949925,
+        "f_max": 0.018018588661751225,
+        "potencia_bomba_hidraulica_kW": null,
+        "potencia_turbina_hidraulica_kW": null,
+        "margen_presion_kPa": null,
+        "cambios": [
+          {
+            "campo": "accesorio_reemplazar",
+            "valor": "Válvula de globo — totalmente abierta",
+            "tramo": 2,
+            "indice_accesorio": 1,
+            "anterior": {
+              "nombre": "Válvula de compuerta — totalmente abierta",
+              "cantidad": 1
+            },
+            "cantidad": 1
+          }
+        ],
+        "firma_escenario": "ecc99677366fe829990843308b23709bd010c8e5b213adaf090b3709e1776767"
+      }
+    },
+    {
+      "version": "V14.20",
+      "nombre": "Bomba +5 m",
+      "firma_escenario": "7f16a0a2dbdd5c3c73fe71bf6cce31ddd4851c29a0bb3713779bb297e9e77b9d",
+      "firma_base": "40f62b06ee36be0fc93d6a01bb3d682f88b8f6862fade07083893684bca4b16a",
+      "cambios": [
+        {
+          "campo": "hA_m",
+          "valor": 5.0,
+          "anterior": 0.0,
+          "unidad": "m"
+        }
+      ],
+      "resumen": {
+        "nombre": "Bomba +5 m",
+        "es_base": false,
+        "clase": "Clase II-C",
+        "estado_matematico": "OK",
+        "estado_fisico": "OK",
+        "estado_integral": "OK",
+        "principal": "Q",
+        "principal_valor": 0.02636601548353119,
+        "principal_unidad": "m³/s",
+        "Q_m3s": 0.02636601548353119,
+        "hL_total_m": 41.58904598186979,
+        "V_max_ms": 5.968045075685601,
+        "Re_min": 329120.1328503089,
+        "Re_max": 438826.84380041185,
+        "f_min": 0.013528381663070408,
+        "f_max": 0.01785974723007544,
+        "potencia_bomba_hidraulica_kW": 1.2906665533482706,
+        "potencia_turbina_hidraulica_kW": null,
+        "margen_presion_kPa": null,
+        "cambios": [
+          {
+            "campo": "hA_m",
+            "valor": 5.0,
+            "anterior": 0.0,
+            "unidad": "m"
+          }
+        ],
+        "firma_escenario": "7f16a0a2dbdd5c3c73fe71bf6cce31ddd4851c29a0bb3713779bb297e9e77b9d"
+      }
+    }
+  ],
+  "cantidad_escenarios": 4,
+  "nota": "Las diferencias porcentuales se calculan contra el escenario base confirmado V14.7."
+}
