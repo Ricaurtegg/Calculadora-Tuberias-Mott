@@ -1,7 +1,0 @@
-MOTT 7a EDICION - CAPITULO 11 - EJEMPLO 11.3 - CLASE II-B
-
-Aceite lubricante: SG = 0.88; rho = 880 kg/m3; mu = 0.0095 Pa.s; nu = 1.07954545e-5 m2/s.
-P1 = 60 kPa; P2 = 0 kPa; z1 = 0 m; z2 = 0 m; hA = 0 m; hR = 0 m. Los puntos 1 y 2 son secciones de la misma línea horizontal.
-Tramo 1: L = 100 m; D = 0.1541 m; material = acero comercial o soldado; DN 150 Schedule 40.
-Pérdidas menores relativamente pequeñas: dos codos estándar de 90 grados y una válvula mariposa totalmente abierta.
-Determine el caudal Q máximo permisible mediante Clase II-B.
