@@ -1,0 +1,13 @@
+streamlit
+numpy
+pandas
+scipy
+matplotlib
+python-docx
+pypdf
+Pillow
+pytesseract
+PyMuPDF
+
+opencv-python
+reportlab

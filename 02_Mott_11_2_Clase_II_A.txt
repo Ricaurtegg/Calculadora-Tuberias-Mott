@@ -1,0 +1,6 @@
+MOTT 7a EDICION - CAPITULO 11 - EJEMPLO 11.2 - CLASE II-A
+
+Aceite lubricante con gravedad específica SG = 0.88, densidad rho = 880 kg/m3, viscosidad dinámica mu = 0.0095 Pa.s y viscosidad cinemática nu = 1.07954545e-5 m2/s.
+Una línea horizontal de acero comercial o soldado DN 150 cédula 40 tiene diámetro interior D = 0.1541 m y longitud L = 100 m. Los puntos 1 y 2 son secciones de la tubería, no depósitos.
+Use referencia manométrica relativa P1 = 60 kPa y P2 = 0 kPa. z1 = 0 m y z2 = 0 m. No hay bomba ni turbina: hA = 0 m, hR = 0 m.
+Desprecie las pérdidas menores. Determine el caudal Q máximo permisible. Use el método de prueba y error a partir de Darcy-Weisbach.
