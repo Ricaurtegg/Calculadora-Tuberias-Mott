@@ -1,0 +1,9 @@
+MOTT 7a EDICION - CAPITULO 11 - EJEMPLO 11.1 - CLASE I
+
+Fluido personalizado: densidad rho = 789 kg/m3 y viscosidad cinemática nu = 7.09759e-7 m2/s.
+Caudal conocido Q = 0.015 m3/s. P1 = 0 kPa; P2 = 0 kPa; z1 = 0 m; z2 = 10 m. hR = 0 m.
+Calcule hA, la carga agregada por la bomba. La eficiencia de la bomba es 76 %.
+Tramo 1: L = 15 m; D = 0.1023 m; material = acero comercial o soldado; una entrada de borde cuadrado.
+Transición entre tramo 1 y tramo 2: sin pérdida adicional / unión ideal.
+Tramo 2: L = 200 m; D = 0.0525 m; material = acero comercial o soldado; una válvula de globo totalmente abierta; dos codos estándar de 90 grados; una salida hacia depósito grande.
+Determine hA y la potencia de entrada de la bomba.
